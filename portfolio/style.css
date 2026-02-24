@@ -1,0 +1,62 @@
+Selector {
+    Property: value;
+}
+
+/* * {
+    text-align: right;
+} */
+
+
+h2 {
+    color: red;
+    text-align: center;
+    border: 2px solid rgba(255, 176, 170, .2);
+    /*    border: 2px dashed rgb(255, 176, 170);  */
+    cursor: pointer;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h2,
+p {
+    color: red;
+    text-align: center;
+    border: 2px solid rgba(255, 176, 170, .2);
+    /*    border: 2px dashed rgb(255, 176, 170);  */
+    cursor: pointer;
+}
+
+p {
+    color: blue;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 2px dashed green;
+
+}
+
+.active {
+    border: 2px dashed green;
+}
+
+#div1 {
+    background-color: aquamarine;
+}
+
+#div2 {
+    background-color: aqua;
+}
+ul {
+    text-align: right;
+}
+footer {
+    text-align: center;
+    margin-top: 10px;
+}

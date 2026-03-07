@@ -1,13 +1,61 @@
-li {
-    list-style: none;
+.boxmodel-nav {
+    width: 100%;
+    background-color: rgb(5, 3, 20);
+    color: white;
     display: inline-block;
-
-}
-
-ul {
+    padding: 10px;
     text-align: right;
+    box-sizing: border-box;
+
+    margin-bottom: 10px;
+
 }
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 150px;
+    margin-bottom: 22px;
+}
+
+body {
+    background-color: rgb(240, 241, 242);
+    margin: 0;
+    padding: 0;
+}
+
+form {
+
+    margin: 150px;
+    margin-top: 0px;
+
+}
+
+.boxmodel {
+    border: 3px solid rgb(204, 202, 202);
+    display: flex;
+    padding: 50px;
+    margin: 150px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
 footer {
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 22px;
 }

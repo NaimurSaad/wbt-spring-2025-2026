@@ -2,61 +2,97 @@ Selector {
     Property: value;
 }
 
-/* * {
+
+.boxmodel-nav {
+    width: 100%;
+    background-color: rgb(5, 3, 20);
+    color: white;
+    display: inline-block;
+    padding: 10px;
     text-align: right;
-} */
+    box-sizing: border-box;
 
+    margin-bottom: 10px;
 
-h2 {
-    color: red;
-    text-align: center;
-    border: 2px solid rgba(255, 176, 170, .2);
-    /*    border: 2px dashed rgb(255, 176, 170);  */
-    cursor: pointer;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(240, 241, 242);
+    text-align: justify;
+    margin: 0;
+    padding: 0;
 }
 
-h2,
-p {
-    color: red;
-    text-align: center;
-    border: 2px solid rgba(255, 176, 170, .2);
-    /*    border: 2px dashed rgb(255, 176, 170);  */
-    cursor: pointer;
-}
 
-p {
-    color: blue;
-}
-
-li {
-    list-style: none;
+/* .boxmodel {
+    border: 3px solid rgb(204, 202, 202);
+    background-color: white;
     display: inline-block;
+    padding: 50px;
+    margin: 150px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
-.webtext {
-    border: 2px dashed green;
+.boxmodel2 {
+    border: 1px solid rgb(230, 230, 235);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+} */
+
+
+.boxmodel {
+    border: 3px solid rgb(204, 202, 202);
+    background-color: white;
+    display: inline-block;
+    padding: 70px;
+    margin: 200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.boxmodel2 {
+
+    margin-top: 30px;
 
 }
 
-.active {
-    border: 2px dashed green;
+#profile-img {
+    width: 220px;
+    height: 220px;
+    margin-right: 40px;
+    border: 3px solid rgb(25, 25, 35);
+    border-radius: 50%;
 }
 
-#div1 {
-    background-color: aquamarine;
+.top-text {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
-#div2 {
-    background-color: aqua;
-}
-ul {
-    text-align: right;
-}
+
 footer {
+
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 22px;
 }

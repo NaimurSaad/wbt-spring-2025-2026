@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Discount Calculator Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="page">
+        <section class="card">
+            <h1>Discount Calculator</h1>
+            <p class="subtitle">Adjust the original price and discount percentage to see the final price update
+                instantly.</p>
+
+            <div class="form-group">
+                <label for="original-price">Original Price (৳)</label>
+                <input type="number" id="original-price" name="original-price" min="0" step="1"
+                    placeholder="Enter the original price of the product" />
+                <small id="price-error-message" class="price-error-message" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="discount">Discount Percentage (%)</label>
+                <input type="number" id="discount" name="discount" min="0" step="1" placeholder="Enter discount %" />
+                <small id="discount-error-message" class="discount-error-message" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="final-price">Final Price (Incl. 5% Tax)</label>
+                <input type="text" id="final-price" name="final-price" value="৳0" readonly />
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
